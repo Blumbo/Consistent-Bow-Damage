@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "consistentbows",
+  "version": "${version}",
+  "name": "ConsistentBowDamage",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/consistentbows/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.blumbo.consistentbow.client.ConsistentBowsClient"
+    ],
+    "main": [
+      "net.blumbo.consistentbow.ConsistentBows"
+    ]
+  },
+  "mixins": [
+    "consistentbows.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
