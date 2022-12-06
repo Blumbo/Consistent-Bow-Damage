@@ -29,7 +29,7 @@ public abstract class PersistentProjectileEntityMixin extends ProjectileEntity {
     private long setCritDamage(long vanillaDamage) {
 
         // Slightly lower than vanilla
-        int nerfedDamage = MathHelper.ceil(MathHelper.clamp(getVelocity().length() * damage - 0.8f, 0.0D, 2.147483647E9D));
+        int nerfedDamage = MathHelper.ceil(MathHelper.clamp(getVelocity().length() * damage - 0.85f, 0.0D, 2.147483647E9D));
 
         return nerfedDamage + (nerfedDamage + 3) / 4 + 1;
     }
