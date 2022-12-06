@@ -1,4 +1,4 @@
-package net.blumbo.consistentbows;
+package net.blumbo.consistentbow;
 
 import net.fabricmc.api.ModInitializer;
 

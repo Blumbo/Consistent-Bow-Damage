@@ -1,4 +1,4 @@
-package net.blumbo.consistentbows.client;
+package net.blumbo.consistentbow.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
