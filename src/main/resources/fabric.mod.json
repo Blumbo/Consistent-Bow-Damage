@@ -10,9 +10,6 @@
   "icon": "assets/consistentbows/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "net.blumbo.consistentbow.client.ConsistentBowsClient"
-    ],
     "main": [
       "net.blumbo.consistentbow.ConsistentBows"
     ]
